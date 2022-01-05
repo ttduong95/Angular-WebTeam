@@ -1,24 +1,140 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Angular-Web</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-  <link href="//fonts.googleapis.com/css?family=Roboto:400,300,700|Caveat" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css2?family=Abel&family=Courgette&family=Shizuru&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/ea42f3d974.js" crossorigin="anonymous"></script>
-
-</head>
 <body>
-<app-root></app-root>
+<section class="part-one">
+  <div class="text">Discover Our Products</div>
+  <div class="small-text">At vero eos et accusamus et  ducimus qui blanditiis praesentium.</div>
+  <div class="icon-menu">
+    <ul class="ul1">
+      <li id="one" class="li1" onclick="ClickFruit()">
+        <a>
+          <div class="icon"><span onmouseenter="ChangeColor1(this)" onmouseleave="RemoveColor1(this)" class="fas fa-carrot" style="color: grey;font-size:50px"></span></div>
+          <div class="title-cate">Fruits</div>
+        </a>
+      </li>
+      <li id="two" class="li1" onclick="ClickJuice()">
+        <a>
+          <div class="icon"><span onmouseenter="ChangeColor1(this)" onmouseleave="RemoveColor1(this)" class="fas fa-seedling" style="color:grey;font-size:50px"></span></div>
+          <div class="title-cate">Vegetables</div>
+        </a>
+      </li>
+      <li id="three" class="li1" onclick="ClickVegetable()">
+        <a>
+          <div class="icon"><span onmouseenter="ChangeColor1(this)" onmouseleave="RemoveColor1(this)" class="fas fa-cocktail" style="color:grey;font-size:50px"></span></div>
+          <div class="title-cate">Juices</div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="part-two" id="fruit">
+  <div class="box-one" onmouseenter="EnterBox0(this)" onmouseleave="LeaveBox0(this)">
+    <div class="image">
+      <img src="../../assets/IMG/nho.jpeg" width="120" height="120"/>
+    </div>
+    <div class="info">
+      <div class="product-name">Green Grape</div>
+      <div class="price">
+        <div class="cost">$14.55</div>
+        <div class="order">
+          <span class="fas fa-shopping-basket" onmouseenter="ChangeColor1(this)" onmouseleave="RemoveColor1(this)"></span>
+          <span class="fas fa-info-circle" onmouseenter="ChangeColor1(this)" onmouseleave="RemoveColor1(this)"></span>
+          <span class="far fa-comments" onmouseenter="ChangeColor1(this)" onmouseleave="RemoveColor1(this)"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="box-one" onmouseenter="EnterBox1(this)" onmouseleave="LeaveBox1(this)">
+    <div class="image">
+      <img src="../../assets/IMG/nho-den.jpeg" width="120" height="120"/>
+    </div>
+    <div class="info">
+      <div class="product-name">Black Grape</div>
+      <div class="price">
+        <div class="cost">$15.55</div>
+        <div class="order">
+          <span class="fas fa-shopping-basket" onmouseenter="ChangeColor1(this)" onmouseleave="RemoveColor1(this)"></span>
+          <span class="fas fa-info-circle" onmouseenter="ChangeColor1(this)" onmouseleave="RemoveColor1(this)"></span>
+          <span class="far fa-comments" onmouseenter="ChangeColor1(this)" onmouseleave="RemoveColor1(this)"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="box-one" onmouseenter="EnterBox2(this)" onmouseleave="LeaveBox2(this)">
+    <div class="image">
+      <img src="../../assets/IMG/apple.jpeg" width="120" height="120"/>
+    </div>
+    <div class="info">
+      <div class="product-name">Fresh Apple</div>
+      <div class="price">
+        <div class="cost">$16.55</div>
+        <div class="order">
+          <span class="fas fa-shopping-basket" onmouseenter="ChangeColor1(this)" onmouseleave="RemoveColor1(this)"></span>
+          <span class="fas fa-info-circle" onmouseenter="ChangeColor1(this)" onmouseleave="RemoveColor1(this)"></span>
+          <span class="far fa-comments" onmouseenter="ChangeColor1(this)" onmouseleave="RemoveColor1(this)"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="box-one" onmouseenter="EnterBox3(this)" onmouseleave="LeaveBox3(this)">
+    <div class="image">
+      <img src="../../assets/IMG/kiwi.jpeg" width="120" height="120"/>
+    </div>
+    <div class="info">
+      <div class="product-name">Tropical Kiwi</div>
+      <div class="price">
+        <div class="cost">$14.55</div>
+        <div class="order">
+          <span class="fas fa-shopping-basket" onmouseenter="ChangeColor1(this)" onmouseleave="RemoveColor1(this)"></span>
+          <span class="fas fa-info-circle" onmouseenter="ChangeColor1(this)" onmouseleave="RemoveColor1(this)"></span>
+          <span class="far fa-comments" onmouseenter="ChangeColor1(this)" onmouseleave="RemoveColor1(this)"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="box-one" onmouseenter="EnterBox4(this)" onmouseleave="LeaveBox4(this)">
+    <div class="image">
+      <img src="../../assets/IMG/lemon.jpeg" width="120" height="120"/>
+    </div>
+    <div class="info">
+      <div class="product-name">Yellow Lemon</div>
+      <div class="price">
+        <div class="cost">$15.55</div>
+        <div class="order">
+          <span class="fas fa-shopping-basket" onmouseenter="ChangeColor1(this)" onmouseleave="RemoveColor1(this)"></span>
+          <span class="fas fa-info-circle" onmouseenter="ChangeColor1(this)" onmouseleave="RemoveColor1(this)"></span>
+          <span class="far fa-comments" onmouseenter="ChangeColor1(this)" onmouseleave="RemoveColor1(this)"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="box-one" onmouseenter="EnterBox5(this)" onmouseleave="LeaveBox5(this)">
+    <div class="image">
+      <img src="../../assets/IMG/banana.jpeg" width="120" height="120"/>
+    </div>
+    <div class="info">
+      <div class="product-name">Tropical Banana</div>
+      <div class="price">
+        <div class="cost">$19.55</div>
+        <div class="order">
+          <span class="fas fa-shopping-basket" onmouseenter="ChangeColor1(this)" onmouseleave="RemoveColor1(this)"></span>
+          <span class="fas fa-info-circle" onmouseenter="ChangeColor1(this)" onmouseleave="RemoveColor1(this)"></span>
+          <span class="far fa-comments" onmouseenter="ChangeColor1(this)" onmouseleave="RemoveColor1(this)"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="part-three">
+  <div class="ig">
+    <div><img src="../../assets/IMG/dis1.png" width="370" height="270"/></div>
+  </div>
+  <div class="ig">
+    <div><img src="../../assets/IMG/dis2.png" width="370" height="270"/></div>
+  </div>
+  <div class="ig">
+    <div><img src="../../assets/IMG/dis3.png" width="370" height="270"/></div>
+  </div>
+</section>
 </body>
 <script type="text/javascript">
   function ChangeColor1(e){
@@ -100,7 +216,6 @@
     arr[5].classList.remove("order-active");
   }
 </script>
-
 <script type="text/javascript">
   function ClickJuice(){
     document.getElementById("fruit").innerHTML=
@@ -399,61 +514,3 @@
       "    </div>";
   }
 </script>
-<script>
-  var idex=1;
-  var auto= function (){
-    var images=["../../assets/IMG/carot1.jpg","../../assets/IMG/anhnen2.webp","../../assets/IMG/cam1.webp"]
-    document.getElementById("image").src= images[idex];
-    idex++;
-    if(idex==3){
-      idex=0;
-    }
-  }
-  setInterval(auto,3000);
-  var next=function (){
-    var nexts=["../../assets/IMG/thuonghieu1.jpg","../../assets/IMG/thuonghieu5.jpg","../../assets/IMG/thuonghieu2.jpg","../../assets/IMG/thuonghieu4.jpg","../../assets/IMG/thuonghieu1.jpg","../../assets/IMG/thuonghieu4.jpg","../../assets/IMG/thuonghieu2.jpg","../../assets/IMG/thuonghieu4.jpg","../../assets/IMG/thuonghieu1.jpg","../../assets/IMG/thuonghieu3.jpg"]
-    document.getElementById("next").src=nexts[parseInt(Math.random()*10)];
-    document.getElementById("next1").src=nexts[parseInt(Math.random()*10)];
-    document.getElementById("next2").src=nexts[parseInt(Math.random()*10)];
-    document.getElementById("next3").src=nexts[parseInt(Math.random()*10)];
-    document.getElementById("next4").src=nexts[parseInt(Math.random()*10)];
-  }
-  setInterval(next,3000);
-  var add=function (){
-    document.getElementById("add").src="../../assets/IMG/sup-lo.jpeg";
-    document.getElementById("ten").innerHTML="<a href=\"#\">CAULIFLOWER</a>";
-    document.getElementById("tien").innerHTML="<a href=\"#\">$8</a>";
-
-    document.getElementById("add1").src="../../assets/IMG/bap-cai.jpeg";
-    document.getElementById("ten1").innerHTML="<a href=\"#\">CABBAGE</a>";
-    document.getElementById("tien1").innerHTML="<a href=\"#\">$5</a>";
-
-    document.getElementById("add2").src="../../assets/IMG/tomatoo.jpeg";
-    document.getElementById("ten2").innerHTML="<a href=\"#\">TRIAL</a>";
-    document.getElementById("tien2").innerHTML="<a href=\"#\">$3</a>";
-
-    document.getElementById("add3").src="../../assets/IMG/vege1.jpg";
-    document.getElementById("ten3").innerHTML="<a href=\"#\">CAULIFLOWER</a>";
-    document.getElementById("tien3").innerHTML="<a href=\"#\">$2</a>";
-
-  }
-  var back=function (){
-    var x=document.getElementById("add");
-    x.src="../../assets/IMG/dautay.jpg";
-    document.getElementById("ten").innerHTML="<a href=\"#\">STRAWBERRY</a>";
-    document.getElementById("tien1").innerHTML="<a href=\"#\">$5</a>";
-    document.getElementById("add1").src="../../assets/IMG/nho-den.jpeg";
-    document.getElementById("ten1").innerHTML="<a href=\"#\">BLACK GRAPES</a>";
-    document.getElementById("tien1").innerHTML="<a href=\"#\">$10</a>";
-
-    document.getElementById("add2").src="../../assets/IMG/apple.jpeg";
-    document.getElementById("ten2").innerHTML="<a href=\"#\">APPLE</a>";
-    document.getElementById("tien2").innerHTML="<a href=\"#\">$9</a>";
-
-    document.getElementById("add3").src="../../assets/IMG/banana.jpeg";
-    document.getElementById("ten3").innerHTML="<a href=\"#\">BANANA</a>";
-    document.getElementById("tien3").innerHTML="<a href=\"#\">$8</a>";
-  }
-
-</script>
-</html>
