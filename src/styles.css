@@ -648,4 +648,188 @@ img{
   padding-right:15px;
   padding-left:15px;
 }
+.container5{
+  width: 1200px;
+
+  margin: 50px auto;
+  padding-left: 20px;
+  border-bottom: 1px solid #e8e2c8;
+  text-align: justify-all;
+  font-weight: lighter;
+}
+
+.container5 .tieude1s{
+  text-align: center;
+  padding-bottom: 30px;
+
+}
+.tieude1s a{
+  font-size: 50px;
+  font-weight: 800;
+  font-family: 'Courgette', cursive;
+  color: darkolivegreen;
+}
+.container1 .noidung{
+  padding-top: 20px;
+  text-align: justify-all;
+  line-height: 30px;
+}
+.anhbl{
+  width: 1000px;
+  height: 700px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.price input {
+  width: 35px;
+  height: 25px;
+  position: absolute;
+  left: 120px;
+  bottom: 40px;
+  border-radius: 5px;
+  border: 1px #b4b1b0 solid;
+}
+.giohang {
+  position: fixed;
+  border-radius: 10px;
+  right: 20px;
+  top: 20px;
+  height: 40px;
+  background-image: linear-gradient(gainsboro, gainsboro);
+  padding: 10px;
+}
+.giohang a{
+  font-size:30px;
+  color:grey;
+  animation:fadein 1.25s 1;
+  background-color: gainsboro;
+  border: gainsboro solid;
+}
+.giohang span {
+  font-weight: bold;
+  font-size: 2vw;
+  color: #0ab60d;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #999;
+  padding: 10px;
+}
+td {
+  border: 1px #CCC solid;
+  text-align: center;
+}
+
+td div {
+  width: calc(100% - 20px);
+  padding: 0px 10px;
+  text-align: right;
+}
+
+th div {
+  width: calc(100% - 10px);
+  padding: 0px 5px;
+  text-align: right;
+  font-size: 1.5rem;
+}
+
+td img {
+  width: 100px;
+}
+#showcart {
+  position: fixed;
+  border-radius: 10px;
+  right: 20px;
+  top: 80px;
+  padding: 10px;
+  background-color: #eee;
+  border: 1px #cccccc solid;
+}
+.box-one button{
+  font-size:30px;
+  padding-right:10px;
+  color:grey;
+  animation:fadein 1.25s 1;
+  background-color: white;
+  border: white solid;
+  padding-top: 70px;
+}
+/* giỏ hàng*/
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #999;
+  padding: 10px;
+  font-size: 16px;
+}
+td {
+  border: 1px #CCC solid;
+  text-align: center;
+  font-size: 16px;
+}
+
+
+td div {
+  width: calc(100% - 20px);
+  padding: 0 10px;
+  text-align: right;
+  font-size: 16px;
+}
+
+th div {
+  width: calc(100% - 10px);
+  padding: 0 5px;
+  text-align: right;
+  font-size: 1.5rem;
+}
+
+td img {
+  width: 80px;
+  height: 80px;
+}
+
+/* thong tin nhận hàng */
+
+.thongtinnhanhang tr td {
+  text-align: left;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.thongtinnhanhang input {
+  width: 100%;
+  height: 30px;
+  border: 1px #CCC solid;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.dongy {
+  width: 180px;
+  border: 1px #226303 solid;
+  background-image: linear-gradient(#226303, #226303);
+  padding: 10px;
+  border-radius: 5px;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.dongy:hover {
+  background-image: linear-gradient(#F30, #000);
+}
+
+
+
 /* You can add global styles to this file, and also import other style files */
